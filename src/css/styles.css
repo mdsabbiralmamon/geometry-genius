@@ -1,0 +1,15 @@
+body main .container .calculations h2{
+    width: max-content;
+    position: relative;
+    margin: 1.5rem auto;
+}
+
+body main .container .calculations h2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+}
