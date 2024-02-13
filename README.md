@@ -1,2 +1,4 @@
 # geometry-genius
-simple geometry calculator
+simple geometry calculator : 
+
+View Live at : https://mdsabbiralmamon.github.io/geometry-genius/
