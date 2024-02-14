@@ -141,8 +141,12 @@
                 </div>
             </div>
             <!-- Area Calculations Sections -->
-            <div class="calculations border-2 border-gray-400 rounded-lg w-full h-[28rem] lg:min-w-56 lg:max-w-96">
+            <div class="calculations px-8 border-2 border-gray-400 rounded-lg w-full h-[28rem] lg:min-w-56 lg:max-w-96">
                 <h2 class="text-center font-bold text-xl">Area Calculation</h2>
+                <div id="tri-result" class="tri-area-output flex items-center justify-between hidden">
+                    <p>1.Triangle <span id="tri-replace">0</span><span>cm</span><sup>2</sup> </p>
+                    <button class="btn btn-info">Covert to m<sup>2</sup> </button>
+                </div>
             </div>
         </div>
     </main>
@@ -153,6 +157,8 @@
     <!-- Scripts -->
     <script src="src/js/getInputs.js"></script>
     <script src="src/js/triangle.js"></script>
+    <script src="src/js/showResults.js"></script>
+    
 </body>
 
 </html>
