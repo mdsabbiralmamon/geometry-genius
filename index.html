@@ -39,13 +39,13 @@
                         <h2 class="text-2xl font-bold">Triangle</h2>
                         <p>Area(A) = .5 × b × h</p>
                         <div class="inputs flex justify-between gap-4 items-center">
-                            <input type="text" placeholder="b" class="bg-gray-200 rounded-md p-2 w-24">
+                            <input id="tri-base" type="text" placeholder="b" class="bg-gray-200 rounded-md p-2 w-24">
                             <span>cm</span>
-                            <input type="text" placeholder="h" class="bg-gray-200 rounded-md p-2 w-24">
+                            <input id="tri-height" type="text" placeholder="h" class="bg-gray-200 rounded-md p-2 w-24">
                             <span>cm</span>
                         </div>
                         <div class="card-actions justify-center">
-                            <button class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <figure><img class="p-5" src="src/images/rectangle.png"
                             alt="Rectangle" /></figure>
                     <div class="card-body text-center">
-                        <h2 class="text-2xl font-bold">Triangle</h2>
+                        <h2 class="text-2xl font-bold">Rectangle</h2>
                         <p>Area(A) = .5 × b × h</p>
                         <div class="inputs flex justify-between items-center">
                             <input type="text" placeholder="b" class="bg-gray-200 rounded-md p-2 w-24">
@@ -150,6 +150,9 @@
     <footer>
 
     </footer>
+    <!-- Scripts -->
+    <script src="src/js/getInputs.js"></script>
+    <script src="src/js/triangle.js"></script>
 </body>
 
 </html>
